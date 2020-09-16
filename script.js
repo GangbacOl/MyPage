@@ -7,12 +7,20 @@ $(document).ready(function () {
             500
         );
     });
-    $('.container_1').on('mousewheel', () => {
+    $('body > div.container_1 > div.header > div.nav > div > li:nth-child(2)').click(() => {
         $('body').animate(
             {
-                scrollTop: $('.container_2').offset().top,
+                scrollTop: $('.container_3').offset().top,
             },
-            500
+            600
         );
     });
+    // $('.container_1').on('mousewheel', () => {
+    //     $('body').animate(
+    //         {
+    //             scrollTop: $('.container_2').offset().top,
+    //         },
+    //         500
+    //     );
+    // });
 });
