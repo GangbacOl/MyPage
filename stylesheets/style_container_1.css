@@ -110,7 +110,6 @@
     }
     .container_1 {
         width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -150,7 +149,6 @@
         display: flex;
         margin: 40px auto;
         width: 70%;
-        height: 5%;
         justify-content: space-around;
         align-items: center;
         border: 2px solid black;
@@ -167,6 +165,7 @@
         width: 34%;
         height: 100%;
         border-radius: 7px;
+        padding: 5px 0;
         transition: all 0.4s;
     }
     .header .nav .nav-list li:hover {
